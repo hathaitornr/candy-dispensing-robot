@@ -1,10 +1,26 @@
-# node-neato
+# Candy Dispensing Robot 
+#### Developing and Designing Interactive Devices Final Project
+
+Hathaitorn Rojnirun (hr346) <br />
+Daren Liu (drl232) <br />
+
+**Documentation**: [Link](https://github.com/darenl/candy-dispensing-robot/wiki/Candy-Dispensing-Neato-Robot-Documentation)
+
+## dispenser
+Documentation for content in dispenser directory
+Candy Dispenser
+
+### Overview
+The code uses the Arduino to handle button inputs and output actions with a servo to dispense candy through a laser-cut candy dispenser model
+
+## neato_robot
+Documentation for content in neato-robot directory
 Drive Neato Robot with NodeJS
 
-## Overview
+### Overview
 This code acts as a NodeJS based server to control a Neato Botvac D Series. The server connects to the Neato via the Micro USB port inside of the dust bin area of the Neato. We can control the robot using a set of commands while in TESTMODE. A full list of the commands can be found here: [https://www.neatorobotics.com/resources/programmersmanual_20140305.pdf]. We control the Neato with an on-board computer (Raspberry Pi 2) with a WiFi connection. A controller connects to the server on port 3000 and sends commands, such as drive commands.
 
-## Installation & Operation
+### Installation & Operation
 - Clone this repo
 - npm install
 - Run server using `node neato-server.js` - this will open a websocket server on port 3000
@@ -18,7 +34,7 @@ This message will call the `drive()` function and pass along the message data to
 
 `data = {LWheelDist : [mm], RWheelDist : [mm], Speed : [mm]}`
 
-## Implemented Commands
+### Implemented Commands
 
 **SetMotors**
 
