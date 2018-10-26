@@ -4,7 +4,7 @@
 Hathaitorn Rojnirun (hr346) <br />
 Daren Liu (drl232) <br />
 
-**Documentation**: [Link](https://github.com/darenl/candy-dispensing-robot/wiki/Candy-Dispensing-Neato-Robot-Documentation)
+**Documentation**: [Link](https://github.com/hathaitornr/candy-dispensing-robot/wiki/Candy-Dispensing-Neato-Robot-Documentation)
 
 ## dispenser
 Documentation for content in dispenser directory
